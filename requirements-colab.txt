@@ -1,4 +1,3 @@
-%%writefile requirements-colab.txt
 # JARVIS_V1 - Google Colab additional dependencies
 # PyTorch and core scientific packages are already provided by Colab.
 
