@@ -1,0 +1,14 @@
+%%writefile requirements-colab.txt
+# JARVIS_V1 - Google Colab additional dependencies
+# PyTorch and core scientific packages are already provided by Colab.
+
+lpips==0.1.4
+torchmetrics==1.4.2
+fvcore==0.1.5.post20221221
+iopath==0.1.10
+yacs==0.1.8
+einops==0.8.1
+PyYAML==6.0.2
+tqdm==4.67.1
+matplotlib==3.10.0
+Pillow==11.1.0
