@@ -38,7 +38,7 @@ CHECKPOINT = (
 
 INFER_SCRIPT = PROJECT_ROOT / "scripts" / "infer.py"
 
-DEFAULT_BATCH_SIZE = 8
+DEFAULT_BATCH_SIZE = 16
 
 
 # ================================================================
