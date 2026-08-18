@@ -8,6 +8,34 @@
 **Metrics:** PSNR • SSIM • LPIPS
 
 ---
+## Training Notebook
+
+A complete **Jupyter Notebook (`train.ipynb`)** is provided for reproducing the training workflow.
+
+The notebook includes the required setup, dependency installation, Google Drive mounting, dataset path configuration, and the commands required to start the training process.
+
+### Dataset Path
+
+The notebook is designed to use the dataset directly from **Google Drive without copying the dataset into the Colab runtime**.
+
+After mounting Google Drive, provide the correct path to your dataset in the notebook. For example:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+Then set the dataset location according to where the dataset is stored in your Drive:
+
+```python
+DATASET_ROOT = "/content/drive/MyDrive/<YOUR_DATASET_FOLDER>"
+```
+
+Replace `<YOUR_DATASET_FOLDER>` with the actual folder name/path in your Google Drive.
+
+Using the Drive path directly allows the training notebook to access the dataset without first copying the complete dataset to `/content`.
+
+**Provided file:** `train.ipynb`
 
 # 🚀 Quick Start — Inference
 
